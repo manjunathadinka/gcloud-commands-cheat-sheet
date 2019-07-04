@@ -1,0 +1,20 @@
+ Quick Start
+Install google cloud SDK on Mac
+Follow https://cloud.google.com/sdk/docs/
+
+$ gcloud auth list
+           Credentialed Accounts
+ACTIVE             ACCOUNT
+*                  xyz@xyz.com
+ 
+To set the active account, run:
+    $ gcloud config set account `ACCOUNT`
+ View information of SDK installation and configuration
+gcloud info
+ Help manual for gcloud
+ Help for command "gcloud compute instances create":
+gcloud help compute instances create
+
+Configurations and Properties
+
+List all configurations
