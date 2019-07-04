@@ -7,7 +7,7 @@ $ gcloud auth list
 ACTIVE             ACCOUNT
 *                  xyz@xyz.com
  
-To set the active account, run:
+Set the active account, run:
     $ gcloud config set account `ACCOUNT`
  View information of SDK installation and configuration
 gcloud info
